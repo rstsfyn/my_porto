@@ -1,0 +1,387 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans'sans-serif;
+}
+
+.contaioner logo {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+a.logo1{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.menu {
+    float: right;
+    font-family: sans-serif;
+}
+
+.navbar .container {
+  padding: 10px 10px;
+  font-size: 15px;
+}
+
+nav li {
+  font-weight: 500;
+}
+
+.navbar-toggler{
+  right: 90;
+}
+
+.navbar .container .navbar-brand {
+  font-size: 15px;
+  font-family: 'Righteous', cursive;
+  font-family: 'Viga', sans-serif;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #0B3D44;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+a.tbl-biru {
+    background: #026909;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #12ad07;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #085a38;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #6ea658;
+    text-decoration: none;
+}
+
+/* .container p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+} */
+
+section {
+    height: 100vh;
+    display: flex;
+    padding-top: 8rem;
+}
+
+/* Bagian Home */
+.home{
+  background-color: #0B3D44;
+}
+
+.text1{
+  color: white;
+  display: flexbox;
+}
+
+.container text1{
+  align-items: center;
+}
+
+.jumbotron {
+  padding-top: 9rem;
+  display: flexbox;
+}
+
+.jumbotron h2 {
+  font-weight: 500;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+
+.jumbotron p {
+  font-weight: 500;
+  color: white;
+}
+
+
+/* Bagian About Me */
+.aboutfoto {
+  display: absolute;
+  width: 450px;
+}
+
+.main {
+  height: 100vh;
+  background-color: white;
+  padding: 0 11%;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  font-family: "Poppins";
+}
+
+
+.text2 h2 {
+  font-size: 50px;
+  color: black;
+  position: relative;
+}
+
+.text2 h2::after{
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 4px;
+  background-color: #0B3D44;
+  left: 0;
+  bottom: 2px;
+}
+
+.text2 p {
+  font-size: 20px;
+  color: black;
+  line-height: 20px;
+  margin: 30px 0 45px 0;
+  max-width: 480;
+  position: relative;
+}
+
+.btn-about {
+  padding: 7px 25px;
+  border: 2px solid #0B3D44;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: #0B3D44;
+  margin-right: 15px;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+
+.btn-about:hover {
+  color: #0B3D44;
+  background-color: white;
+}
+
+.btn1 {
+  background-color: #0B3D44;
+  color: white;
+}
+.btn2{
+  color: #0B3D44;
+  background-color: silver;
+}
+
+/* Bagian Experience */
+.box {
+  height: 100vh;
+  text-align: center;
+  color: #4d4d4d;
+  margin-top: 80px;
+  align-content: center;
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+  width: 300px;
+  height: 320px;
+  background-color: #f0f0f0f0;
+  text-align: center;
+  padding: 30px 30px;
+  margin: 50px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  float: left;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover{
+  background-color: #0B3D44;
+  color: white;
+}
+
+.box h3, p{
+  margin-top: 10px;
+  margin-bottom: 13px;
+  padding:0px 20px;
+}
+
+.box-kiri img {
+  width: 90px;
+}
+
+.box-tengah img {
+  width: 90px;
+}
+
+.box-kanan img {
+  width: 90px;
+}
+
+
+/* Bagian Portofolio */
+#projects {
+  background-color: #e2edff;
+}
+
+.card img {
+  width: 90px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+/* Bagian footer */
+footer {
+	background-color: #0B3D44;
+	color: #a7a7a7;
+	font-size: 16px;
+  }
+footer * {
+	font-family: "Poppins", sans-serif;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+  }
+  .row {
+	padding: 1em 1em;
+  width: 100%;
+}
+.row.primary {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 2fr;
+	align-items: stretch;
+}
+.column {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 2em;
+	min-height: 15em;
+}
+.row h4 {
+	width: 100%;
+	text-align: left;
+	color: white;
+	font-size: 1.4em;
+	white-space: nowrap;
+  }
+.row ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+  }
+.row li:not(:first-child) {
+	margin-top: 0.8em;
+}
+.row ul li a {
+	color: #a7a7a7;
+	text-decoration: none;
+  }
+.row ul li a:hover {
+	color: white;
+}
+.about p {
+	text-align: justify;
+	line-height: 2;
+	margin: 0;
+}
+input{
+	font-size: 1em;
+	padding: 1em;
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.row button {
+	background-color:  #026909;
+	color: #ffffff;
+  font-size: 1em;
+	padding: 1em;
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.footer-bottom{
+	width: 100%;
+	height: 30px;
+	color: white;
+	background:#13292C;
+	text-align: center;
+	padding: 5px;
+	border-top: 1px solid white;
+}
+
+.footer-bottom p {
+	font-size: 0.9em;
+	text-align: right;
+}
+@media screen and (max-width: 850px) {
+.row.primary {
+	grid-template-columns: 1fr;
+  }
+}
+
